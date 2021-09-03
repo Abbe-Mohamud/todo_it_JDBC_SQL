@@ -1,4 +1,4 @@
-package se.lexicon.abbeleo;
+package se.lexicon;
 
 import static org.junit.Assert.assertTrue;
 
