@@ -17,8 +17,6 @@ public class TodoItemDAOIMPL implements TodoItemDAO{
         PreparedStatement preparedStatement = null;
         ResultSet resultSet  = null;
 
-
-
         try {
             connection = MySQLConnection.getInstance().getConnection();
             preparedStatement = connection.prepareStatement(create, Statement.RETURN_GENERATED_KEYS);
